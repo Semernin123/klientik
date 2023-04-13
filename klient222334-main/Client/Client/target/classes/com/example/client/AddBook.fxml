@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ComboBox?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane id="wind" prefHeight="400.0" prefWidth="600.0" styleClass="\@" stylesheets="@ClientDesign.css" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.client.controller.EditBookController">
+   <children>
+      <TextField id="field" fx:id="AddTitle" layoutX="190.0" layoutY="192.0" prefHeight="32.0" prefWidth="220.0" stylesheets="@ClientDesign.css" />
+      <Button id="Button" layoutX="137.0" layoutY="330.0" mnemonicParsing="false" onAction="#SaveBook" prefHeight="32.0" prefWidth="130.0" stylesheets="@ClientDesign.css" text="Сохранить">
+         <font>
+            <Font name="System Bold" size="15.0" />
+         </font>
+      </Button>
+      <Button id="Button" layoutX="341.0" layoutY="330.0" mnemonicParsing="false" onAction="#CloseBook" prefHeight="32.0" prefWidth="130.0" stylesheets="@ClientDesign.css" text="Закрыть">
+         <font>
+            <Font name="System Bold" size="15.0" />
+         </font>
+      </Button>
+      <TextField id="field" fx:id="AddKind" layoutX="190.0" layoutY="231.0" prefHeight="32.0" prefWidth="220.0" stylesheets="@ClientDesign.css" />
+      <Label id="Label" layoutX="186.0" layoutY="35.0" stylesheets="@ClientDesign.css" text="Добавление книги">
+         <font>
+            <Font name="System Bold" size="25.0" />
+         </font>
+      </Label>
+      <TextField id="field" fx:id="AddYear" layoutX="190.0" layoutY="271.0" prefHeight="32.0" prefWidth="220.0" stylesheets="@ClientDesign.css" />
+      <Label id="text" layoutX="39.0" layoutY="195.0" stylesheets="@ClientDesign.css" text="Название книги">
+         <font>
+            <Font name="System Bold" size="18.0" />
+         </font>
+      </Label>
+      <Label id="text" layoutX="128.0" layoutY="234.0" stylesheets="@ClientDesign.css" text="Жанр">
+         <font>
+            <Font name="System Bold" size="18.0" />
+         </font>
+      </Label>
+      <Label id="text" layoutX="93.0" layoutY="274.0" stylesheets="@ClientDesign.css" text="Год книги">
+         <font>
+            <Font name="System Bold" size="18.0" />
+         </font>
+      </Label>
+      <ComboBox id="field" fx:id="SetAuthor" layoutX="191.0" layoutY="95.0" prefHeight="32.0" prefWidth="220.0" stylesheets="@ClientDesign.css" />
+      <ComboBox id="field" fx:id="SetPublisher" layoutX="191.0" layoutY="143.0" prefHeight="32.0" prefWidth="220.0" stylesheets="@ClientDesign.css" />
+      <Label id="text" layoutX="57.0" layoutY="146.0" stylesheets="@ClientDesign.css" text="Издательство">
+         <font>
+            <Font name="System Bold" size="18.0" />
+         </font>
+      </Label>
+      <Label id="text" layoutX="69.0" layoutY="98.0" stylesheets="@ClientDesign.css" text="ФИО автора">
+         <font>
+            <Font name="System Bold" size="18.0" />
+         </font>
+      </Label>
+   </children>
+</AnchorPane>

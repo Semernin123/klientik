@@ -1,0 +1,76 @@
+#Books{
+    -fx-background-color: purple;
+}
+#Authors{
+    -fx-background-color: purple;
+}
+#Publishers{
+    -fx-background-color: purple;
+}
+#Window{
+    -fx-background-color: purple;
+}
+#MotherWindow{
+    -fx-background-color: silver;
+}
+#PublishersTable {
+    -fx-background-color: black;
+    -fx-text-fill: white;
+}
+#BooksTable {
+    -fx-background-color: black;
+    -fx-text-fill: white;
+}
+#AuthorsTable {
+    -fx-background-color: black;
+    -fx-text-fill: white;
+}
+#Name{
+    -fx-background-color: purple;
+    -fx-text-fill: white;
+}
+#Surname{
+    -fx-background-color: purple;
+    -fx-text-fill: white;
+}
+#Lastname{
+    -fx-background-color: purple;
+    -fx-text-fill: white;
+}
+#Title{
+    -fx-background-color: purple;
+    -fx-text-fill: white;
+}
+#Publisher{
+    -fx-background-color: purple;
+    -fx-text-fill: white;
+}
+#Year{
+    -fx-background-color: purple;
+    -fx-text-fill: white;
+}
+#Kind{
+    -fx-background-color: purple;
+    -fx-text-fill: white;
+    -fx-text-origin: white;
+}
+#City{
+    -fx-background-color: purple;
+    -fx-text-fill: white;
+}
+#Button{
+    -fx-text-fill: white;
+    -fx-background-color: purple;
+}
+#wind{
+    -fx-background-color: black;
+}
+#text{
+    -fx-text-fill: white;
+}
+#field{
+    -fx-text-fill: black;
+}
+Label{
+    -fx-text-fill: white;
+}
